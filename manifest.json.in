@@ -1,0 +1,15 @@
+{
+    "name": "sailtuner.com.github.jmlich.sailtuner",
+    "description": "Chromatic tuner for SailfishOS with multi-temperament support",
+    "architecture": "$ENV{ARCH}",
+    "title": "SailTuner",
+    "hooks": {
+        "sailtuner": {
+            "apparmor": "SailTuner.apparmor",
+            "desktop":  "SailTuner.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Jozef Mlich <jmlich83@gmail.com>",
+    "framework" : "$ENV{CLICK_FRAMEWORK}"
+}

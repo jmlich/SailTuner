@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=SailTuner
+Exec=SailTuner %U
+Icon=assets/harbour-sailtuner.svg
+Terminal=false
+Type=Application
+X-Lomiri-Touch=true
